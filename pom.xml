@@ -5,7 +5,7 @@
 
     <groupId>org.vaadin.addons</groupId>
     <artifactId>rangedatefield</artifactId>
-    <version>6.0-SNAPSHOT</version>
+    <version>6.0</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -19,7 +19,7 @@
     </properties>
 
     <scm>
-        <connection>scm:svn:https://vaadin-rangedatefield.googlecode.com/svn/branches/rangedatefield-6.x</connection>
+        <connection>scm:svn:https://vaadin-rangedatefield.googlecode.com/svn/tags/rangedatefield-6.0</connection>
     </scm>
 
     <dependencies>
