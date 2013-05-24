@@ -20,6 +20,7 @@
         <gwt.plugin.version>2.3.0-1</gwt.plugin.version>
         <maven-source-plugin.version>2.1.2</maven-source-plugin.version>
         <rangedatefield.version>6.0</rangedatefield.version>
+        <appengine.version>1.8.0</appengine.version>
     </properties>
 
     <dependencies>
@@ -49,6 +50,17 @@
             <artifactId>gwt-dev</artifactId>
             <version>${gwt.version}</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.google.appengine</groupId>
+            <artifactId>appengine-api-1.0-sdk</artifactId>
+            <version>1.8.0</version>
+        </dependency>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>servlet-api</artifactId>
+            <version>2.5</version>
+            <scope>provided</scope>
         </dependency>
     </dependencies>
 
@@ -144,6 +156,11 @@
                         </connector>
                     </connectors>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>com.google.appengine</groupId>
+                <artifactId>appengine-maven-plugin</artifactId>
+                <version>${appengine.version}</version>
             </plugin>
         </plugins>
     </build>
