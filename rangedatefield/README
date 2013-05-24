@@ -1,6 +1,0 @@
-RangeDateField extends standard Vaadin DateField and allows you to restrict date selection to a specific set of dates. You can also set custom CSS styles to specific dates this way customizing the Look&Feel of the calendar.
-
-Date selection can be restricted in the following way:
-1) by providing valid from or valid to date (or both);
-2) by specifying that weekends should be excluded;
-3) by configuring a specific list of days that should be disabled.
