@@ -19,13 +19,14 @@
         <jetty.version>7.4.0.v20110414</jetty.version>
         <gwt.plugin.version>2.3.0-1</gwt.plugin.version>
         <maven-source-plugin.version>2.1.2</maven-source-plugin.version>
+        <rangedatefield.version>6.0</rangedatefield.version>
     </properties>
 
     <dependencies>
         <dependency>
             <groupId>org.vaadin.addons</groupId>
             <artifactId>rangedatefield</artifactId>
-            <version>${project.version}</version>
+            <version>${rangedatefield.version}</version>
         </dependency>
         <dependency>
             <groupId>com.vaadin</groupId>
