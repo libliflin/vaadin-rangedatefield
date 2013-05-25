@@ -65,7 +65,7 @@ public class RangeDateFieldDemoApplication extends Application {
             rangeDateField.setExcludeWeekends((Boolean)event.getProperty().getValue());
          }
       });
-      layout.addComponent(new Label("Exclude weekends:"));
+      layout.addComponent(new Label("Exclude weekends (yyyy-MM-dd):"));
       layout.addComponent(excludeWeekends);
 
       TextField excludeDates = new TextField();

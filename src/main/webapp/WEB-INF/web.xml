@@ -12,7 +12,7 @@
 
     <servlet>
         <servlet-name>RangeDateFieldDemo</servlet-name>
-        <servlet-class>com.vaadin.terminal.gwt.server.ApplicationServlet</servlet-class>
+        <servlet-class>com.vaadin.terminal.gwt.server.GAEApplicationServlet</servlet-class>
         <init-param>
             <description>Vaadin application class to start</description>
             <param-name>application</param-name>
